@@ -1,5 +1,5 @@
 
-// import logo from 'figma:asset/93bcdc7aedb493fb887668e08dcc5db56294f17a.png';
+import logo from '../public/optixpathway-logo.png';
 import Link from 'next/link';
 
 const exploreLinks = [
@@ -40,11 +40,11 @@ export function Footer() {
                 {/* Logo */}
                 <div className="mb-6">
                   <Link href="/">
-                    {/* <img 
-                      src={logo} 
+                    <img 
+                      src={logo.src} 
                       alt="Optix Pathway" 
                       className="h-10 w-auto"
-                    /> */}
+                    />
                   </Link>
                 </div>
 

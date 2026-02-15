@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { usePathname } from "next/navigation";
 import { Menu } from 'lucide-react';
-// import logo from 'figma:asset/93bcdc7aedb493fb887668e08dcc5db56294f17a.png';
+import logo from '../public/optixpathway-logo.png';
 import { CTAButton } from './CTAButton';
 import { MobileMenu } from './MobileMenu';
 import Link from 'next/link';
@@ -58,13 +58,13 @@ export function MainHeader({ isScrolled = false }: MainHeaderProps) {
           }`}>
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
-              {/* <img 
-                src={logo} 
+              <img 
+                src={logo.src} 
                 alt="Optix Pathway" 
                 className={`transition-all duration-300 ${
                   isScrolled ? 'h-8' : 'h-8 md:h-9 lg:h-10'
                 }`}
-              /> */}
+              />
             </Link>
 
             {/* Desktop Navigation */}
