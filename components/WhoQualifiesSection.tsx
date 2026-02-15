@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { Shield, Globe, CheckCircle } from 'lucide-react';
 import { QualificationCard } from './QualificationCard';

@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { CheckCircle2 } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';

@@ -1,31 +1,33 @@
-import { motion } from 'motion/react';
-import { ConcernCard } from './ConcernCard';
+/* eslint-disable react/no-unescaped-entities */
+"use client";
+import { motion } from "motion/react";
+import { ConcernCard } from "./ConcernCard";
 
 const concerns = [
   {
     text: "Am I eligible for Student Finance?",
-    delay: 0.1
+    delay: 0.1,
   },
   {
     text: "Can I study without A-levels or prior qualifications?",
-    delay: 0.15
+    delay: 0.15,
   },
   {
     text: "I'm a mature student — can I still apply?",
-    delay: 0.2
+    delay: 0.2,
   },
   {
     text: "Which universities will accept my background?",
-    delay: 0.25
+    delay: 0.25,
   },
   {
     text: "I was rejected before — can I try again?",
-    delay: 0.3
+    delay: 0.3,
   },
   {
     text: "How long does the application process take?",
-    delay: 0.35
-  }
+    delay: 0.35,
+  },
 ];
 
 export function CommonConcernsSection() {
@@ -66,7 +68,8 @@ export function CommonConcernsSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              We regularly support students who are unsure about eligibility, qualifications, or funding. You're not alone.
+              We regularly support students who are unsure about eligibility,
+              qualifications, or funding. You're not alone.
             </motion.p>
           </div>
 
@@ -91,7 +94,9 @@ export function CommonConcernsSection() {
           >
             <div className="bg-[#F1F5F9] rounded-2xl p-6 md:p-8">
               <p className="text-[15px] text-[#475569] text-center leading-[1.6]">
-                Every student's situation is different. Our role is to assess your profile carefully and provide clear, honest guidance based on eligibility and long-term outcomes.
+                Every student's situation is different. Our role is to assess
+                your profile carefully and provide clear, honest guidance based
+                on eligibility and long-term outcomes.
               </p>
             </div>
           </motion.div>

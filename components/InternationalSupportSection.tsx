@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ClipboardCheck, GraduationCap, FileText, Globe, MapPin, Calendar } from 'lucide-react';
 

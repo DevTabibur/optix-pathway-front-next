@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { TrustBadge } from './TrustBadge';

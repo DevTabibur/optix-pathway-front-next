@@ -1,3 +1,4 @@
+"use client"
 import { Briefcase, Heart, Laptop, Scale, Cog, GraduationCap, BookOpen } from 'lucide-react';
 
 interface CourseCategory {

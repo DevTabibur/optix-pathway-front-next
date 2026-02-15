@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ServiceItem } from './ServiceItem';
 import { 

@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { Briefcase, Heart, Laptop, Scale, GraduationCap, BookOpen } from 'lucide-react';
 import { FeatureCard } from './FeatureCard';

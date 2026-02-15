@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ClipboardCheck, Banknote, GraduationCap, Building2, FileText, Calendar } from 'lucide-react';
 import { FeatureCard } from './FeatureCard';

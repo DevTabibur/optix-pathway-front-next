@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ValueItem } from './ValueItem';
 import { Lightbulb, Users, FileCheck } from 'lucide-react';

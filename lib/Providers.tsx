@@ -24,7 +24,10 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <Provider store={store}>
       <TopBar />
-      <MainHeader isScrolled={isScrolled} />
+      <div className={`${isScrolled ? 'sticky top-0 z-40' : ''}`}>
+        <MainHeader isScrolled={isScrolled} />
+      </div>
+      {/* <MainHeader isScrolled={isScrolled} /> */}
       <AuthProvider>
         {/* <ClientLanguageProvider>
           <ClientThemeProvider> */}

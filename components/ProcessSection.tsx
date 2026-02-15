@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { ProcessStepCard } from './ProcessStepCard';
 import { MessageCircle, Map, FileText, GraduationCap } from 'lucide-react';

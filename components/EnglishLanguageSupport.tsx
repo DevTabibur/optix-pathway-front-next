@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { FileCheck, Headphones, Globe, FileText, Monitor, MessageSquare, Info } from 'lucide-react';
 

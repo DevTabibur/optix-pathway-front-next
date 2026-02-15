@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client"
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { CTAButton } from './CTAButton';
 import Link from 'next/link';
@@ -44,13 +46,13 @@ export function CoursesHero() {
                 </Link>
 
                 {/* Secondary CTA */}
-                <a
-                  href="#course-categories"
-                  onClick={handleScrollToCourses}
+                <button
+                  // href="#course-categories"
+                  onClick={handleScrollToCourses as any}
                   className="text-base font-semibold text-[#E63946] hover:text-[#D32F3D] transition-colors duration-200"
                 >
                   Scroll to course categories ↓
-                </a>
+                </button>
               </div>
 
               {/* Trust Micro-copy */}

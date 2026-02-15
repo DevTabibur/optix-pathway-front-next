@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { Plane, Home, BookOpen, Users } from 'lucide-react';
 

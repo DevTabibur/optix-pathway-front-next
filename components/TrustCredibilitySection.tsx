@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { Shield, Target, GraduationCap, CheckCircle } from 'lucide-react';
 import { TrustItem } from './TrustItem';

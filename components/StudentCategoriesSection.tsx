@@ -1,3 +1,4 @@
+"use client"
 import { motion } from 'motion/react';
 import { CategoryCard } from './CategoryCard';
 import { Globe, GraduationCap, RefreshCw, Briefcase } from 'lucide-react';
